@@ -1,0 +1,18 @@
+[project]
+name = "spy-cat-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=6.0.1",
+    "djangorestframework>=3.16.1",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+]
+
+[dependency-groups]
+dev = [
+    "pytest-django>=4.11.1",
+    "ruff>=0.14.11",
+]

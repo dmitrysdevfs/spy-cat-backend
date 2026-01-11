@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Internal Management
+AGENT_CURRENT.md
+REQUIREMENTS.md
+CONTRIBUTING.md
+
+# IDEs
+.idea/
+.vscode/
