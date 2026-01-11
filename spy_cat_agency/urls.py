@@ -17,8 +17,13 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
+from django.http import JsonResponse
+
+def home(request):
+    return JsonResponse({"message": "Spy Cat Agency API is running", "version": "1.0.0"})
 
 urlpatterns = [
+    path("", home),
     path("admin/", admin.site.urls),
     path("api/", include("cats.urls")),
 ]
