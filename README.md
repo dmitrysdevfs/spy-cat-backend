@@ -2,6 +2,10 @@
 
 Backend implementation for managing spy cats, missions, and targets for the Spy Cat Agency (SCA).
 
+## Frontend Repository
+The frontend dashboard for the Spy Cat Agency (built with Next.js) is available in a separate repository:
+[Spy Cat Agency Frontend](https://github.com/dmitrysdevfs/spy-cat-frontend)
+
 ## Tech Stack
 - **Framework**: Django + Django REST Framework
 - **Database**: SQLite
